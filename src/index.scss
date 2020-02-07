@@ -1,0 +1,61 @@
+// COLOR SETUP
+$bodyBG: #261f28;
+$dead: #2d4125;
+$live: #0cf404;
+
+// FONT STACK
+$fontStack: 'Oswald', sans-serif;
+
+body {
+  background: $bodyBG;
+  font-family: $fontStack;
+}
+
+h1,
+p {
+  color: #fff;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  width: 50%;
+}
+
+.buttonBar {
+  display: flex;
+  justify-content: center;
+}
+.controlButton {
+  margin-right: 5px;
+  padding: 5px 8px;
+  text-transform: uppercase;
+
+  &:last-child {
+    margin-right: 0px;
+  }
+}
+
+.cell {
+  border: 1px solid #444;
+  display: inline-block;
+  height: 10px;
+  margin-bottom: -1px;
+  margin-left: -1px;
+  width: 10px;
+
+  &:hover {
+    background: #ff0;
+  }
+}
+.dead {
+  background: $dead;
+}
+.live {
+  background: $live;
+}
+
+.world {
+  line-height: 0;
+  margin: auto;
+  margin-top: 20px;
+  width: 150px;
+}

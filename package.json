@@ -1,0 +1,22 @@
+{
+  "name": "gameoflife",
+  "version": "3.1.0",
+  "description": "Conway's Game of Life for freeCodeCamp",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "parcel --no-source-maps src/index.html",
+    "build-prod": "parcel build src/index.html --no-source-maps --public-url ./"
+  },
+  "author": "John Hanna",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.25.0"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
