@@ -13,7 +13,7 @@ npm install
 To run in hot module reloading mode:
 
 ```sh
-npm start
+npm run dev
 ```
 
 To create a production build:
@@ -22,13 +22,13 @@ _Recommend delete dist/ directory before creating production build_
 Unix/Linux
 ```sh
 rm -rf dist
-npm run build-prod
+npm run build
 ```
 
 Windows 10
 ```sh
 rmdir dist
-npm run build-prod
+npm run build
 ```
 
 ## Running production build
