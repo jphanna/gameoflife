@@ -1,6 +1,6 @@
 {
   "name": "gameoflife",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "description": "Conway's Game of Life for freeCodeCamp",
   "main": "src/index.html",
   "scripts": {
@@ -10,13 +10,13 @@
   "author": "John Hanna",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.8.4",
+    "@babel/core": "^7.8.7",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "parcel-bundler": "^1.12.4",
-    "sass": "^1.25.0"
+    "sass": "^1.26.3"
   },
   "dependencies": {
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
   }
 }
