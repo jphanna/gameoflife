@@ -1,4 +1,4 @@
-# Game of Life v.3.3.0
+# Game of Life v.4.3.0
 
 Game of Life created to complete freeCodeCamp project.
 
