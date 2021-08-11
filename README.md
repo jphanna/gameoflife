@@ -1,4 +1,4 @@
-# Game of Life v.4.3.0
+# Game of Life v.5.0.0
 
 Game of Life created to complete freeCodeCamp project.
 
@@ -10,7 +10,7 @@ First install dependencies:
 npm install
 ```
 
-To run in hot module reloading mode:
+To run in development mode:
 
 ```sh
 npm run dev
@@ -23,7 +23,7 @@ _Recommend delete dist/ directory before creating production build_
 npm run build
 ```
 
-## Running production build
+## Running development or production build
 
-Open the file `dist/index.html` in your browser
+Open the file `dist/index.html` in your browser or, *recommended*, use a Live Server.
 
